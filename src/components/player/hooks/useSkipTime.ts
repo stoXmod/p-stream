@@ -169,7 +169,7 @@ export function useSkipTime() {
         const apiUrl = `${FED_SKIPS_BASE_URL}/${meta.imdbId}/${meta.season?.number}/${meta.episode?.number}`;
 
         const turnstileToken = await getTurnstileToken(
-          "0x4AAAAAAB6ocCCpurfWRZyC",
+          "0x4AAAAAAC0mMjKwHsZ13Ge3",
         );
         if (!turnstileToken) return null;
 
